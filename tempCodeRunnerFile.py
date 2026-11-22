@@ -1,11 +1,8 @@
-#Input the data and Calculate the area of the Rectangle
-l = input("Enter the length of the Rectangle : ")  # entered data will be stored as string
-b = input("Enter the breadth of the Rectangle : ")
+# Relationsal Operators in print statement
+x = 15
+y = 15
+print(x == y) # outputs TRUE because written condition is true
 
-#typecasting string to integer
-l = int(l)
-b = int(b)
-
-area = l*b
-
-print(f"Area of the Rectangle is {area}")
+y = 5
+print(x == y) #outputs FALSE
+print(x != y) #outputs TRUE

@@ -42,3 +42,12 @@ print(x == y) # outputs TRUE because written condition is true
 y = 5
 print(x == y) #outputs FALSE
 print(x != y) #outputs TRUE
+
+# split() function breaks user inputs on the basis of spaces between them and stores them in different variables 
+a, b, c, d = input("Enter four words having spaces between them : ").split()
+
+print(d,c,b,a)
+
+# if you want integer multiple inputs we need to use map function along with split
+a,b,c,d = map(int, input("Enter 4 numbers : ").split())
+print("sum of all given inputs : ", a+b+c+d)
